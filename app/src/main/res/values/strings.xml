@@ -1,0 +1,438 @@
+<resources>
+    <string name="app_name">FragmentApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="kor_spring">
+        春季 3月-5月: 此时韩国气候温暖，鲜花遍地。3月底济州岛的樱花首先开放，4月中旬首尔已是姹紫嫣红。此时的韩国，可谓是万物复苏，风和日丽。
+    </string>
+    <string name="kor_summer">
+        夏季 6月－9月: 此时是韩国的雨季，降雨量占全年降雨量的二分之一。夏季7、8月份高温潮湿，大部分韩国人选择此时去高山或滨海地区，比如釜山的海云台避暑度假。
+    </string>
+    <string name="kor_autume">
+        秋季 9月－11月: 10月初的雪岳山枫叶转红，落英缤纷；到了11月上旬，首尔的古宫已是红叶满园，秋意正浓。
+    </string>
+    <string name="kor_winter">
+        冬季 12月－次年3月中旬: 韩国的冬季十分寒冷，东北部的暴风雪为滑雪提供最佳条件。山岳地区近年来东南亚各国在冬季去韩国滑雪的游客渐多。
+    </string>
+    <string name="kor_money">
+        当地货币： 韩国统一货币是韩元(符号：₩）
+    </string>
+    <string name="kor_money_coin">
+        硬币的面值有10、50、100和500韩元。
+    </string>
+    <string name="kor_money_paper">
+        纸币的面值有1,000、5,000、10,000和50,000韩元。
+    </string>
+    <string name="krcard1">
+        普通卡：价格为2500韩元，在地铁站，便利店，街头合作店铺可以买
+    </string>
+    <string name="krcard2">
+        设计联名卡：价格为3000-4000韩元，在便利店，品牌实体店可以买
+    </string>
+    <string name="krcard3">
+        挂绳卡：价格为5000-9000韩元，在便利店，街头合作小店可以买
+    </string>
+    <string name="how_to_recharge1">
+        地铁站自助充值机：可以使用中文界面，但是只能使用韩元现金。
+    </string>
+    <string name="how_to_recharge2">
+        加盟便利店、小店、ATM机：可以以现金进行T-Money卡充值操作，需要留意是否有T-Money的标志。
+    </string>
+    <string name="clothes">
+        韩国全境内气候四季分明，如果从国内北方前往，携带同季服装即可。如果从南方前往，冬季时需要记得携带保暖外套。
+    </string>
+    <string name="kr_visa">
+        前往韩国需要办理韩国短期旅行签证。直飞济州岛单地可享受免签（30天）。如果前往“济州岛+韩国本地某地（如：首尔）”则仍然需要办理韩国旅游签证
+    </string>
+    <string name="kr_visa_materials1">
+        1.申请表\n2.护照（有效期在6个月以上）\n3.证件照，3.5cmX4.5cm，是最近6个月内拍摄的\n4.身份证复印件
+    </string>
+    <string name="kr_visa_materials2">
+        以下资料三选一提供\n1.最近6个月的信用卡对账单原件\n2.最近6个月个人所得税完税证明原件，或社会保险参保证明原件\n3.最近6个月的银行账户交易明细（由银行签发）
+    </string>
+    <string name="kr_visa_materials3">
+        1.中、小学生提供在校证明\n2.大学生提交中国高等教育学生信息网的电子认证材料 www.chsi.com.cn
+    </string>
+    <string name="jeju_visa">
+        免签进入济州岛时，需要填写三张卡片：入境卡、财产申报单、健康报表。\n
+        可以使用中文填写。尽管提及“财产”和“健康”问题，但是对于普通游客而言，这些问题属于例行检查性的登记，不必紧张，如实填写即可。
+    </string>
+    <string name="kr_dashi1">
+        大韩民国驻中国大使馆\n
+        领事区域：北京市、天津市、河北省、山西省、内蒙古自治区、新疆自治区、西藏自治区、青海省\n
+        地址：北京市朝阳区亮马桥北小街7号\n
+        电话：(010)8532-0404\n
+        传真：(010)6532-3891
+    </string>
+    <string name="kr_dashi2">
+        驻青岛总领事馆\n
+领事区域：青岛市、山东省\n
+地址：青岛市城阳区春阳路88号\n
+电话：(0532)8897-6001\n
+传真：(0532)8897-6005
+    </string>
+    <string name="kr_dashi3">
+        驻上海总领事馆\n
+领事区域：上海市、安徽省、江苏省、浙江省\n
+地址：上海市万山路60号\n
+电话：(021)6295-5000\n
+传真：(021)6295-5191/2629
+    </string>
+    <string name="kr_dashi4">
+        驻广州总领事馆\n
+领事区域：广东省、广西壮族自治区、海南省、福建省\n
+地址：广东省天河区体育东路羊城国际商贸中心西塔18楼\n
+电话：(020)3887-0555\n
+传真：(020)3887-0923
+    </string>
+    <string name="kr_dashi5">
+        驻沈阳总领事馆\n
+领事区域：辽宁省、黑龙江省、吉林省\n
+地址：辽宁省沈阳市和平区南13纬路37号\n
+电话：(024)2385-3388\n
+传真：(024)2385-5170
+    </string>
+    <string name="kr_dashi6">
+        驻成都总领事馆\n
+领事区域：重庆直辖市、四川省、云南省、 贵州省\n
+地址：四川省成都市下南大街6号天府绿洲大廈19楼\n
+电话：(028)8616-5800\n
+传真：(028)8616-5789
+    </string>
+    <string name="kr_dashi7">
+        驻西安总领事馆\n
+领事区域：陕西省、甘肃省、宁夏回族自治区\n
+地址：陕西省西安市高新技术产业开发区科技路33号国际商务中心19层\n
+电话：(029)8835-1001\n
+传真：(29)8835-1002
+    </string>
+    <string name="kr_dashi8">
+        驻武汉总领事馆\n
+领事区域：河南省、湖北省、湖南省、江西省\n
+地址：湖北省武汉市江汉区新华路218号浦发银行大厦4楼\n
+电话：(027)8556-1085\n
+传真：(027)8574-1085
+    </string>
+    <string name="kr_train">
+        在韩国各个城市间穿梭时，最好的交通手段之一便是火车了。巴士会因道路情况而发生时间变动，而火车则按照定好的时间运行，不会使旅行计划发生差错。\n\n
+        韩国的火车根据列车运行速度及列车内便利设施的不同分为高速列车KTX和一般列车新村号、无穷花号，价格也各不相同。京釜线(首尔站-釜山站)和湖南线(龙山站-木浦站)是铁路枢纽线。
+    </string>
+    <string name="kr_bus">
+       在韩国当要到异地出行时，通常采用的大众交通手段就是高速/市外巴士。巴士是城市之间连接的纽带，无论城市大小，均设有很多路线，四通八达的交通网分布在城市的每个角落，而费用相对低廉，设施干净整洁。虽因路况的不同所需时间有所差异，但守时、准点出发等优势，使得巴士在大众交通中起到了核心的作用。\n\n
+        若想订购车票，建议直接到巴士客运站购买。在售票处买票时，要确认下将要前往的地方在几号乘车口登车，之后持票到相应的乘车处上车即可，而车票在上车或下车时需交给巴士司机。\n\n
+        通常，大部分巴士客运站地处城市中心地区，周围住宿和餐饮设施齐全，适合作为区域旅游的起始点。并且，在巴士客运站内，大部分设有便利店、物品保管箱(收费)、免费卫生间、银行自动提款机等便利设施，规模较大的客运站还会有饭店、咖啡厅、卖场等。
+    </string>
+    <string name="kr_tour_bus">
+        在韩国观光时，可选乘各个旅游城市开通的“市区游巴士”，购票某条观光线路的车票后就可以自由在该线路的任何站点上下车。非常方便，而且更加经济廉价。\n\n
+        目前开通市区游巴士的城市包含了首尔、釜山、庆州、济州、蔚山、仁川、水原、 加平等。
+    </string>
+    <string name="kr_chunjie">
+        韩国人过年时家家户户都要准备很多糯米打糕，分赠邻居和亲友。从这种习俗中产生了"吃打糕过年"的说法。据说米糕含有诚心、爱心和孝心之意，象征新的一年团圆美好。\n\n
+        春节最重要的活动是祭祀祖先，以缅怀祖宗之德，承继先人之志。祭祖完毕后晚辈要向长辈拜年。家有丧事或服三年丧者则不拜年。拜年时，长辈要给晚辈压岁钱，并把有"装福"寓意的福笊篱(过滤用的汤勺模样的工具)送给别人或挂在家里。在韩国也和中国一样有回家过年的风俗，一家人穿上绚丽多彩的韩服，自驾车奔向故乡，构成了一幅典型的韩国节日风俗图。
+    </string>
+    <string name="kr_zhongqiu">
+        中秋节不单单是华人的节日，也是韩国、日本的传统节日。韩国人又称中秋节为"秋夕"或"感恩节"。"每逢佳节倍思亲"，韩国秉承了汉字文化圈的传统，中秋节成为一年中最重要的节日。韩国人极重孝道，中秋节子女能否回家拜见双亲长辈，是衡量子女孝顺与否的重要尺度。因而在韩国，中秋这一天不论身在何处，即使再忙也都要赶回去，与家人团聚。这种方式颇像中国的春节。\n\n
+        中秋节是中韩两国都有的节日，其渊源与中国也有密切关系，但在接纳、消化和吸收的过程中，韩国中秋的习俗、食俗已与中国有所不同：韩国中秋节的主要活动是为感谢祖先带来丰收而扫墓，而中国是在清明节扫墓;韩国中秋节的正餐是早餐，中国的晚餐是正餐;中秋节韩国人不像中国人那样吃月饼，而是吃特制的松饼。
+    </string>
+    <string name="kr_duanwu">
+        端午节又俗称端阳节、端五节、天中节，是插秧结束后祈求丰年的日子。东亚各国过端午的习俗略有不同。中国有吃粽子的习俗，但日本和韩国就没有。日本人过端午是男人游泳，女人洗头;而韩国则是男人摔跤，女人用菖浦叶洗头，荡秋千，还吃用艾叶做的像车轮一样的车轮饼--艾糕。因此，韩国又将端午节称为车轮节。韩国人从不否认农耕社会时期为祈求丰收和安康的端午节发端于中国。\n\n
+        在李朝时期，端午节算是一个大节，至今在偏重农业的韩国一些道郡仍将端午节看成是重要的节日，特别是"江陵端午祭"尤为有名，已成为民众共同参与的传统大型民俗祝祭活动。2005年11月25日"江陵端午祭"被联合国教科文组织正式确定为"人类口头和非物质遗产代表作。
+    </string>
+    <string name="kr_yuanxi">
+        韩国人将正月十五称为元夕节或上元节，也有人称元宵节，但并没有吃元宵的习惯。正月十五是新年伊始迎来的第一个月圆日，像中国人一样，韩国人过节是祈求一年的丰裕和平安。这天，吃花生、栗子、核桃等坚果，喝"耳明酒"。韩国人早餐吃用大米、江米、小豆、大豆、高粱做的五谷饭和野菜，并叫对方的名字，对方应答"你买我的热呀"，表示新年里的整个夏天都不会中暑。据说，这天晚上向圆月许的三个愿望都会实现。\n\n
+        大部分的韩国民俗活动集中在正月十五，这与祈求丰收的咒术形式有密切联系。代表性的民俗活动有放风筝、拔河、车战游戏、踩铜桥、跳园舞等。此外，还有驱逐妖魔鬼怪和害虫之意的"放鼠火"，其中，济州道的野火节最为有名。
+    </string>
+    <string name="kr_safety">
+        韩国的治安状况还是很好的，晚上11点主要街道还是比较热闹的，会有警察定时进行巡逻。但是女生在深夜时尽量避免单独外出。进入酒店或民宿房间后也应该尽快落锁，同时警惕陌生人的搭讪。
+    </string>
+    <string name="kr_call">
+        报警：112\n
+        火警、急救：119\n
+        外国人应急医疗：1339
+    </string>
+    <string name="kr_medicine">
+        韩国大城市的医疗水平还是很高的，但是自己去医院，语言不通还是会成为就医的最大困难，如果遇到紧急情况可以拨打1339，外国人应急医疗热线求助。
+    </string>
+    <string name="kr_language">
+        韩国的官方语言是韩语。\n\n
+        在游客集中的区域以及大型旅游城市的交通枢纽，都有讲英文甚至中文的工作人员。一些游客中心的工作人员会身着红色制服在景点、购物区的街头出现，可以使用英语与他们交流。
+    </string>
+    <string name="ch_money">
+        当地货币： 人民币（缩写：RMB；货币代码：CNY；货币符号：¥）是中华人民共和国的法定货币。由中国人民银行发行，货币于1948年12月1日首次发行。
+    </string>
+    <string name="ch_paper_money">
+        纸币的面值有1,5,10,20,50,100人民币
+    </string>
+    <string name="ch_coin_money">
+        硬币的面值有1角，5角，1元人民币
+    </string>
+    <string name="about_yikatong">
+        次办理需要缴纳二十五元，包括二十元押金和五元成本费，最低卡内需充值二十元。如果你有以前的普通卡，可持原普通卡免费更换全国一卡通城市卡。
+    </string>
+    <string name="ch_railway">
+        在中国，搭乘火车旅行不仅方便实惠，还可欣赏沿途的风光。中国境内交通以铁路、公路、内河与近海航运为主，铁路由哈大—京沈、京沪、京九、京广、北同蒲—太焦—焦枝—枝柳、宝成—成昆—昆河、成渝—川黔—黔桂等南北干线、京包—包兰—兰青、陇海—兰新、杭—浙赣—湘黔—贵昆、蓝烟—胶济—石德—石太—同蒲—侯西等东西干线组成。中国高速铁路网正在逐步完善，其中包括四纵四横干线网，即北京-广州、北京-哈尔滨、北京-上海、徐州-兰州、上海-昆明、上海-成都、东南沿海准高铁等，重要的区域网有贵州-广州、南宁-广州、西安-成都等，城际高铁有京津城际、沪宁城际等。
+    </string>
+    <string name="ch_highway">
+        中国境内拥有广泛的公共交通服务，包括公交，大巴，出租车。中国公路总里程达423.75万公里，随着西藏墨脱公路的建成通车，公路已覆盖全国各地。其中高速公路更是形成了首都放射线7条、南北纵向线9条、东西横向线18条的国家高速公路网。
+    </string>
+    <string name="ch_shipping">
+        搭乘轮船出行不仅可以享受闲适平稳之感，还可在旅途中饱览四周的山水风光。中国内河航运以长江中下游和珠江最为发达，京杭大运河的河北、江苏、浙江段通航。大连、秦皇岛、天津、青岛、连云港、上海、宁波、厦门、黄埔、湛江、海口、香港为主要海港。
+    </string>
+    <string name="ch_how_to_recharge">
+        地铁站自助充值机：只能使用人民币现金。
+    </string>
+    <string name="ch_yuandan">
+        日期：1月1日\n
+        元旦指公元纪年的岁首第一天（即1月1日）。在这一天，全国范围内都会有许多跨年活动及庆祝活动，包括香港新年倒数、江苏常州天宁宝塔烧香听钟声活动、各地方台跨年演唱会等。
+    </string>
+    <string name="ch_chunjie">
+        日期:农历正月初一\n
+        春节是中华民族最隆重的传统佳节。在春节期间，中国的汉族和一些少数民族会举行各种庆祝活动，包括祭祀祖神、祭奠祖先、除旧布新、迎禧接福、祈求丰年等。
+    </string>
+    <string name="ch_qingming">
+        日期:春分后15天\n
+        清明节，又叫踏青节，是中国最重要的祭祀节日之一。这一天是中国人祭祖和扫墓的日子，习俗除了讲究禁火、扫墓之外，还有踏青、荡秋千、蹴鞠、打马球、插柳等一系列风俗体育活动。
+    </string>
+    <string name="ch_laodong">
+        日期：5月1日\n
+        又称“国际示威游行日”，是全世界劳动人民共同拥有的节日。
+    </string>
+    <string name="ch_duanwu">
+        日期：农历五月初五\n
+        中国民间的四大传统节日之一，也是进入首批国家级非物质文化遗产名录的节日，主要民俗活动有划龙舟，挂艾草与菖蒲，吃粽子，沐兰汤，放风筝，佩豆娘等等。
+    </string>
+    <string name="ch_zhongqiu">
+        日期：农历八月十五\n
+        中秋节自古便有祭月、赏月、拜月、吃月饼、赏桂花、饮桂花酒等习俗，流传至今，经久不息。中秋节以月之圆兆人之团圆，为寄托思念故乡，思念亲人之情，祈盼丰收、幸福，成为丰富多彩、弥足珍贵的文化遗产。中秋节与端午节、春节、清明节并称为中国四大传统节日。
+    </string>
+    <string name="ch_guoqing">
+        日期：10月1日\n
+        中华人民共和国国庆节又称十一。中央人民政府宣布自1950年起，以每年的10月1日，为中华人民共和国宣告成立的日子，即国庆日，每年都会举行盛大国庆阅兵。
+    </string>
+    <string name="ch_clothes">
+        1．冬季：毛衣、羽毛衣或御寒大衣、卫生衣、手套、围巾、帽子、毛袜、口罩、防滑鞋子，另请准备防干裂的的乳液、护脣膏。\n
+        2．夏季：以单件轻便棉衣为主。因户外游览时间较长，可携带太阳眼镜和遮阳帽，防晒露,并带一双合脚的拖鞋。\n
+        3．春秋：毛衣、保暖外套或夹克。
+    </string>
+    <string name="ch_visa_place">
+        中华人民共和国驻外使馆、领馆或者外交部委托的其他驻外机构负责在境外签发外国人入境签证。\n符合《中华人民共和国出境入境管理法》第二十条有关规定情形的外国人，可以在国务院批准办理口岸签证业务的口岸，向公安部委托的口岸签证机关申请办理口岸签证。
+    </string>
+    <string name="ch_visa_hongkong">
+        1、香港特区给予部分国家和地区人员免签证待遇\n。2、不享受免签证待遇的外国人赴港，须申请赴港签证
+    </string>
+    <string name="ch_visa_macao">
+       1、澳门特区给予部分国家和地区人员免签证待遇。\n2、除少数特定国家人员外，不享受免签证待遇的外国人，原则上可在澳门口岸办理落地签证。\n同时申请前往中国内地、香港特区、澳门特区的外国人，须分别申请内地签证和赴港、赴澳签证。
+    </string>
+    <string name="ch_safety">
+        出门在外特别注意安全，尤其切记财不露白，平时财物分开放置，提醒阁下购物时也不应当众掏出大把钞票点数；请注意车子、顏色、车号，以免停车时找不到，并请保持车内整洁，约定上车时间请务必准时集合上车，以免影响旅游行程。车辆行驶途中，不要在车上行走，请系好安全带，请勿任意更换座位，头、手伸出窗外，上下车时，请注意来车方向以免发生危险。贵重要物品请放置饭店总台保险箱内，如随身携带，切勿离手，小心扒手就在身旁。外出请把手提包背在胸前，并且不要在街角逗留，以防有人开车或骑摩托车从您身旁抢走皮包。遭遇抢劫时，力求镇定，记住对方容貌、长相及口音，事后立即报请公安单位追查。过马路，一定要注意红绿灯。遇红灯时，千万要停步在斑马线前，即使没有来往车辆，也不要横穿马路。
+    </string>
+    <string name="ch_call">
+        警察：110\n
+        火警：119\n
+        急救：120\n
+        号码查询：114\n
+        天气预报	：12121、96121\n
+        铁路客服中心	：12306\n
+    </string>
+    <string-array name="kr_main_cities">
+        <item>首尔</item>
+        <item>釜山</item>
+        <item>西归浦</item>
+        <item>仁川</item>
+        <item>大邱</item>
+        <item>庆州</item>
+    </string-array>
+    <string-array name="ch_main_cities">
+        <item>北京</item>
+        <item>上海</item>
+        <item>香港</item>
+        <item>重庆</item>
+        <item>厦门</item>
+        <item>西安</item>
+    </string-array>
+    <string-array name="kr_cities">
+        <item>全部</item>
+        <item>首尔</item>
+        <item>釜山</item>
+        <item>仁川</item>
+        <item>西归浦</item>
+        <item>南怡岛</item>
+        <item>大邱</item>
+        <item>庆州</item>
+        <item>江陵</item>
+        <item>束草</item>
+        <item>丽水</item>
+        <item>春川</item>
+        <item>平昌</item>
+        <item>水原</item>
+        <item>光州</item>
+        <item>仁川国际机场</item>
+        <item>大田</item>
+        <item>蔚山</item>
+        <item>韩国富川</item>
+        <item>长城郡</item>
+        <item>济州国际机场</item>
+        <item>荣州市</item>
+        <item>广州市(韩国)</item>
+        <item>坡州</item>
+        <item>始兴</item>
+        <item>金浦</item>
+        <item>清州市</item>
+        <item>牙山</item>
+        <item>利川市</item>
+        <item>韩国晋州</item>
+        <item>天安市</item>
+        <item>巨济岛</item>
+        <item>城南市</item>
+        <item>龙仁市</item>
+        <item>木浦市</item>
+        <item>加平</item>
+        <item>洪川郡</item>
+        <item>杨州市</item>
+        <item>顺天市</item>
+        <item>高阳市</item>
+        <item>平泽市</item>
+        <item>世宗</item>
+        <item>镇海市</item>
+        <item>浦项</item>
+        <item>骊州</item>
+        <item>昌原市</item>
+        <item>安城市</item>
+        <item>江华岛</item>
+        <item>三陟</item>
+        <item>龟尾</item>
+        <item>金海市</item>
+        <item>清道</item>
+        <item>瑞山市</item>
+        <item>杨平郡</item>
+        <item>灵岩郡</item>
+        <item>金浦国际机场</item>
+        <item>统营</item>
+        <item>机张</item>
+        <item>扶余郡</item>
+        <item>泰安郡</item>
+        <item>群山市（全罗道）</item>
+        <item>论山</item>
+        <item>青松</item>
+        <item>南海郡</item>
+        <item>河东郡</item>
+        <item>马山市</item>
+        <item>郁陵郡</item>
+        <item>庆山市</item>
+        <item>井邑市</item>
+        <item>高敞郡</item>
+        <item>海南郡</item>
+        <item>益山</item>
+        <item>锦山郡</item>
+        <item>横城</item>
+        <item>堤川</item>
+        <item>忠州市</item>
+        <item>南杨州市</item>
+        <item>议政府市</item>
+        <item>抱川市</item>
+        <item>襄阳郡</item>
+        <item>杨口郡</item>
+    </string-array>
+    <string-array name="ch_cities">
+        <item>全部</item>
+        <item>香港</item>
+        <item>北京</item>
+        <item>厦门</item>
+        <item>上海</item>
+        <item>三亚</item>
+        <item>成都</item>
+        <item>丽江</item>
+        <item>西安</item>
+        <item>杭州</item>
+        <item>广州</item>
+        <item>大理</item>
+        <item>台北</item>
+        <item>澳门</item>
+        <item>哈尔滨</item>
+        <item>南京</item>
+        <item>青岛</item>
+        <item>桂林</item>
+        <item>昆明</item>
+        <item>深圳</item>
+        <item>黄山</item>
+        <item>张家界</item>
+        <item>拉萨</item>
+        <item>武汉</item>
+        <item>青海湖</item>
+        <item>天津</item>
+        <item>长沙</item>
+        <item>泸沽湖</item>
+        <item>大连</item>
+        <item>乌镇</item>
+        <item>鼓浪屿</item>
+        <item>凤凰古镇</item>
+        <item>长白山</item>
+        <item>珠海</item>
+        <item>呼伦贝尔</item>
+        <item>西塘</item>
+        <item>北海</item>
+        <item>婺源</item>
+        <item>香格里拉</item>
+        <item>敦煌</item>
+        <item>垦丁</item>
+        <item>无锡</item>
+        <item>稻城</item>
+        <item>西双版纳</item>
+        <item>花莲</item>
+        <item>华山</item>
+        <item>西宁</item>
+        <item>涠洲岛</item>
+        <item>济南</item>
+        <item>扬州</item>
+        <item>色达</item>
+        <item>贵阳</item>
+        <item>洛阳</item>
+        <item>雪乡</item>
+        <item>沈阳</item>
+        <item>高雄</item>
+        <item>漠河</item>
+        <item>海口</item>
+        <item>福州</item>
+        <item>绍兴</item>
+        <item>宁波</item>
+        <item>平遥</item>
+        <item>庐山</item>
+        <item>腾冲</item>
+        <item>兰州</item>
+        <item>亚丁</item>
+        <item>北戴河</item>
+        <item>南宁</item>
+        <item>甘南</item>
+        <item>舟山</item>
+        <item>武夷山</item>
+        <item>普陀山</item>
+        <item>双廊</item>
+        <item>郑州</item>
+        <item>千岛湖</item>
+        <item>乌鲁木齐</item>
+        <item>阿坝</item>
+        <item>黔东南</item>
+        <item>喀纳斯</item>
+        <item>威海</item>
+        <item>周庄</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.LeftFragment"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="text"
+            app:queryHint="请输入城市，景点，美食"
+            android:background="@drawable/search_form"/>
+    </android.support.v7.widget.Toolbar>
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:id="@+id/linearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <GridView
+                android:id="@+id/homegrid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:columnWidth="10dp"
+                android:horizontalSpacing="5dp"
+                android:numColumns="1"
+                tools:listitem="@layout/homegrid_item"/>
+           <!-- <android.support.v7.widget.RecyclerView
+                android:id="@+id/youji_rec"
+                tools:listitem="@layout/youjicard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>-->
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

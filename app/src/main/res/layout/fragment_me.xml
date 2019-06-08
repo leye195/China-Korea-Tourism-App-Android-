@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_foreground"
+    tools:context=".Fragment.MeFragment">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="60dp"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+        <TextView
+            android:id="@+id/me_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hi~欢迎到中韩旅游App"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/ToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_login"
+            android:text="登入/注册"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:text="我的游记"
+            android:id="@+id/my_youji"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_login"
+
+            />
+        <Button
+            android:id="@+id/user_list"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_login"
+            android:text="用户列表" />
+        <Button
+            android:id="@+id/user_logout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_login"
+            android:text="退出" />
+    </LinearLayout>
+</LinearLayout>
