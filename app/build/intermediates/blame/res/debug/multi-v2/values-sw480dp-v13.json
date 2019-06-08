@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\LeeYoungJae\\AndroidStudioProjects\\FragmentApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw480dp-v13\\values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LeeYoungJae\\.gradle\\caches\\transforms-2\\files-2.1\\7760e39ab9e77e7e4546f0df62605bc8\\res\\values-sw480dp-v13\\values-sw480dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,155",
+                        "endColumns": "52,46,44",
+                        "endOffsets": "103,150,195"
+                    }
+                }
+            ]
+        }
+    ]
+}

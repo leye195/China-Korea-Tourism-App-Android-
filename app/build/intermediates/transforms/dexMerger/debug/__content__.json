@@ -1,0 +1,1 @@
+[{"name":"b06edc73ce3fbef0b90339979023d7adbb2bfd8a","index":0,"scopes":["PROJECT"],"types":["DEX"],"format":"DIRECTORY","present":true},{"name":"main","index":1,"scopes":["EXTERNAL_LIBRARIES"],"types":["DEX"],"format":"DIRECTORY","present":true},{"name":"externalLibs","index":2,"scopes":["EXTERNAL_LIBRARIES"],"types":["DEX"],"format":"DIRECTORY","present":true}]
