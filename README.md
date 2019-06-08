@@ -2,10 +2,15 @@
 19-BUAA 毕设项目
 
 主要包含5个功能模块：
+
 1.注册登录[Register&Login module]
+
 2.旅游信息模块[Tour Info module]
+
 3.搜索模块[Search module]
+
 4.游记模块[Post module]
+
 5.推荐模块[Recommendation module]
 
 # 注册登录模块
